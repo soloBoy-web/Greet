@@ -1,14 +1,13 @@
+from greeter import Greeter
+
+
+
+
+
+
 def start():
-    pass
-
-
-
-
-
-
-
-
-
+    g = Greeter()
+    print(g.greet())
 
 
 
